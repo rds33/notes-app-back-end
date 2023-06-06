@@ -17,6 +17,7 @@
         "no-trailing-spaces":"off",
         "linebreak-style":"off",
         "indent":"off",
-        "eol-last":"off"
+        "eol-last":"off",
+        "no-underscore-dangle" : "off"
     }
 }
