@@ -46,7 +46,7 @@ class UsersHandler {
         }
       }
 
-      async getUserByIdHandler(request, h) {
+    async getUserByIdHandler(request, h) {
         try {
           const { id } = request.params;
      
@@ -78,7 +78,7 @@ class UsersHandler {
           console.error(error);
           return response;
         }
-      }
+    }
   }
 
   module.exports = UsersHandler;
