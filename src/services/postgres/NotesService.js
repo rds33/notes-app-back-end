@@ -106,7 +106,7 @@ class NotesService {
     }
 
     const { owner } = result.rows[0];
-    await this._cacheService.delete(`notes:${owner}`);
+    await this._cacheService.delete(`notes:${owner}`);  
   }
 
   async verifyNoteOwner(id, owner) {

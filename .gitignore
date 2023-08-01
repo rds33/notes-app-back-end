@@ -3,3 +3,4 @@ notes-api-webserver1.pem
 .env
 .prod.env
 src/api/uploads/file
+ssh.txt
